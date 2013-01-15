@@ -1,0 +1,4 @@
+D:\PROJECTS\SilverlightApplication1\SilverlightBanking.Web\bin\SilverlightBanking.Web.dll
+D:\PROJECTS\SilverlightApplication1\SilverlightBanking.Web\bin\SilverlightBanking.Web.pdb
+D:\PROJECTS\SilverlightApplication1\SilverlightBanking.Web\obj\Debug\SilverlightBanking.Web.dll
+D:\PROJECTS\SilverlightApplication1\SilverlightBanking.Web\obj\Debug\SilverlightBanking.Web.pdb

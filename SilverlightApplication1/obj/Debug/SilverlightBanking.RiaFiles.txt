@@ -1,0 +1,2 @@
+D:\PROJECTS\SilverlightApplication1\SilverlightApplication1
+Generated_Code\SilverlightBanking.Web.g.cs

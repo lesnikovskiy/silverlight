@@ -1,0 +1,1 @@
+D:\PROJECTS\SilverlightApplication1\SilverlightBanking.Web\SilverlightBanking.Web.csproj,634938793665058593,Properties\AssemblyInfo.cs,
