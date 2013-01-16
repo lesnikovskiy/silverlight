@@ -11,6 +11,8 @@ namespace SilverlightBanking
         {
             InitializeComponent();
 
+            // initialize owner in code behind
+            // commented as done same in XAML
             InitializeOwner();
             OwnerDetailsGrid.DataContext = _owner;
         }

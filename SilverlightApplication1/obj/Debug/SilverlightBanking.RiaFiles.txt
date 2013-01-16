@@ -1,2 +1,2 @@
-D:\PROJECTS\SilverlightApplication1\SilverlightApplication1
+D:\development\UnitTests\Silverlight\SilverlightApplication1
 Generated_Code\SilverlightBanking.Web.g.cs

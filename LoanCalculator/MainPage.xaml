@@ -1,0 +1,103 @@
+﻿<UserControl x:Class="LoanCalculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot" Background="White" Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid x:Name="LoanCalculationsGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock
+                x:Name="TitleTextBlock"
+                Text="Calculate loan payback amount"
+                FontSize="18"
+                FontWeight="Bold"></TextBlock>
+            <TextBlock x:Name="InterestTextBlock"
+                       Grid.Row="1"
+                       Text="Current interest: 3.45%"
+                       FontWeight="Bold"></TextBlock>
+            <Grid Grid.Row="2" Margin="3 5 3 5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="310"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Selected requested amount" Grid.ColumnSpan="2"></TextBlock>
+                <Slider x:Name="AmountSlider" Grid.Row="1" Grid.Column="0" 
+                        Minimum="10000" 
+                        Maximum="1000000" 
+                        SmallChange="10000" 
+                        LargeChange="100000"
+                        Width="300"></Slider>
+                <TextBlock x:Name="AmountTextBlock"
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           Text="{Binding ElementName=AmountSlider, Path=Value}"></TextBlock>
+            </Grid>
+            <Grid Grid.Row="3" Margin="3 5 3 5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="310"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Select number of month: "
+                           Grid.Row="0"
+                           Grid.Column="0"
+                           Grid.ColumnSpan="2"></TextBlock>
+                <Slider x:Name="YearsSlider" 
+                        Grid.Row="1" 
+                        Grid.Column="0"
+                        Minimum="5"
+                        Maximum="30"
+                        SmallChange="1"
+                        LargeChange="1"
+                        Width="300"
+                        UseLayoutRounding="True"></Slider>
+                <TextBlock x:Name="MonthTextBlock"
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           Text="{Binding ElementName=YearsSlider, Path=Value}"></TextBlock>
+            </Grid>
+            <Button x:Name="CalculateButton"
+                    Content="Calculate"
+                    Grid.Row="4"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Click="CalculateButton_OnClick"></Button>
+            <TextBlock x:Name="PaybackTextBlock"
+                       Grid.Row="5"
+                       Grid.Column="1"
+                       FontSize="18"
+                       Foreground="Green"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"></TextBlock>
+        </Grid>
+        <Button x:Name="OkButton"
+                Content="OK"
+                Click="OkButton_OnClick"
+                Grid.Row="1"
+                Width="75"
+                Height="23"
+                HorizontalAlignment="Right"
+                Margin="0,12,0,0"></Button>
+    </Grid>
+</UserControl>

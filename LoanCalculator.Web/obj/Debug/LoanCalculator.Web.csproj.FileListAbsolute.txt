@@ -1,0 +1,5 @@
+D:\development\UnitTests\Silverlight\LoanCalculator.Web\bin\LoanCalculator.Web.dll
+D:\development\UnitTests\Silverlight\LoanCalculator.Web\bin\LoanCalculator.Web.pdb
+D:\development\UnitTests\Silverlight\LoanCalculator.Web\obj\Debug\LoanCalculator.Web.csprojResolveAssemblyReference.cache
+D:\development\UnitTests\Silverlight\LoanCalculator.Web\obj\Debug\LoanCalculator.Web.dll
+D:\development\UnitTests\Silverlight\LoanCalculator.Web\obj\Debug\LoanCalculator.Web.pdb

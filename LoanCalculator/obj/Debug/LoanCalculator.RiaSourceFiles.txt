@@ -1,0 +1,1 @@
+D:\development\UnitTests\Silverlight\LoanCalculator.Web\LoanCalculator.Web.csproj,634939328388181896,Properties\AssemblyInfo.cs,

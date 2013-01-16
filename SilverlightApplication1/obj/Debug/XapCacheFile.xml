@@ -1,8 +1,8 @@
-﻿<xapCache source="D:\PROJECTS\SilverlightApplication1\SilverlightApplication1\Bin\Debug\SilverlightBanking.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="1/15/2013 11:23:06 PM">
-  <file source="D:\PROJECTS\SilverlightApplication1\SilverlightApplication1\obj\Debug\SilverlightBanking.dll" archivePath="SilverlightBanking.dll" lastWriteTime="1/15/2013 11:23:05 PM" />
-  <file source="C:\Program Files\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
-  <file source="C:\Program Files\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.dll" archivePath="System.ServiceModel.DomainServices.Client.dll" lastWriteTime="6/29/2012 1:04:48 PM" />
-  <file source="C:\Program Files\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.Web.dll" archivePath="System.ServiceModel.DomainServices.Client.Web.dll" lastWriteTime="6/29/2012 1:04:54 PM" />
-  <file source="C:\Program Files\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ServiceModel.Web.Extensions.dll" archivePath="System.ServiceModel.Web.Extensions.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
-  <file source="D:\PROJECTS\SilverlightApplication1\SilverlightApplication1\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="1/15/2013 11:05:13 PM" />
+﻿<xapCache source="D:\development\UnitTests\Silverlight\SilverlightApplication1\Bin\Debug\SilverlightBanking.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="16.01.2013 11:01:50">
+  <file source="D:\development\UnitTests\Silverlight\SilverlightApplication1\obj\Debug\SilverlightBanking.dll" archivePath="SilverlightBanking.dll" lastWriteTime="16.01.2013 11:01:49" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="18.11.2011 16:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.dll" archivePath="System.ServiceModel.DomainServices.Client.dll" lastWriteTime="29.06.2012 12:04:48" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.Web.dll" archivePath="System.ServiceModel.DomainServices.Client.Web.dll" lastWriteTime="29.06.2012 12:04:54" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ServiceModel.Web.Extensions.dll" archivePath="System.ServiceModel.Web.Extensions.dll" lastWriteTime="18.11.2011 16:40:20" />
+  <file source="D:\development\UnitTests\Silverlight\SilverlightApplication1\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="16.01.2013 10:53:13" />
 </xapCache>
